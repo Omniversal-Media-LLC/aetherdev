@@ -34,3 +34,10 @@ Icon?
 *.zip
 *.key
 *.pem
+# ── ignore local dev junk ─────────────────────────────
+**/node_modules/
+dev/
+onering/
+thefivebranches/*/dev/
+# ignore images that shouldn't live in git history
+*.png
