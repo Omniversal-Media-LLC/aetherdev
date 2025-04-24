@@ -41,3 +41,6 @@ onering/
 thefivebranches/*/dev/
 # ignore images that shouldn't live in git history
 *.png
+**/node_modules/
+*.DS_Store
+
