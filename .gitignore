@@ -1,0 +1,36 @@
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# System
+.DS_Store
+
+# Environment
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
+
+# Mac junk
+Icon?
+
+# Everything temporary
+*.log
+*.tmp
+*.bak
+
+# Prevent accidentally committing compressed archives or secrets
+*.zip
+*.key
+*.pem
